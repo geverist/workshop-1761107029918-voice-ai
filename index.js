@@ -107,7 +107,7 @@ wss.on('connection', (ws) => {
               messages: [
                 {
                   role: 'system',
-                  content: 'You are an AI developed to facilitate the first level screening of job applicants. You will be conducting outbound calls to applicants who have applied for specific positions on a job board. Your task is to conduct an initial screening based on the required skills and experience for the position. You should ask questions related to their qualifications, previous work experience, and specific skills related to the job. Keep the conversation professional and to the point. Remember to provide the applicant with a chance to ask any questions they might have about the position or the hiring process.'
+                  content: 'The use case description \'adsf\' provided is unclear or incomplete. Please provide a detailed description of the voice AI application you are trying to build. This could include the purpose of the application, the target audience, and any specific features or capabilities you want the application to have. For example, is this a customer service bot? Does it need to schedule appointments or answer frequently asked questions? The more detail you can provide, the better we can assist you in building your application.'
                 },
                 {
                   role: 'user',
