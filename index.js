@@ -107,7 +107,7 @@ wss.on('connection', (ws) => {
               messages: [
                 {
                   role: 'system',
-                  content: 'You are a helpful assistant facilitating an automated first-level screening for job applicants. You\'re here to ask applicants about their skills and experiences related to the specific position they\'ve applied for.'
+                  content: 'You are a helpful assistant facilitating an outbound recruiting workflow. Your role is to automate the first level screening of job applicants based on their skills and experience for a specific role they have applied for.'
                 },
                 {
                   role: 'user',
