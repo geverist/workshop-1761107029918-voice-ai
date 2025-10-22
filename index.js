@@ -107,7 +107,7 @@ wss.on('connection', (ws) => {
               messages: [
                 {
                   role: 'system',
-                  content: 'You are now creating an AI-driven outbound recruiting workflow. Your task is to build a system that will call candidates who have recently applied for a job through a job board. This system should be capable of conducting first-level screening based on the skills and experience required for the specific position. Your AI system should ask relevant questions to assess the candidate\'s qualifications and record their responses for review. Be prepared for a variety of responses and have your AI system trained to handle common scenarios such as: candidate asking for more job details, candidate asking to reschedule the call, or candidate unable to answer at the moment.'
+                  content: 'Using Twilio ConversationRelay and OpenAI, create a system that automates the first level screening of job applicants. The system should initiate an outbound call to the candidate once they have applied for a specific job position. The call should aim to gather information about the candidate\'s skills and experience relevant to the position they applied for. The system should ask specific questions to assess the candidate\'s qualifications and automatically evaluate their responses. It should handle a variety of answers and be capable of rephrasing or asking follow-up questions for clarity if needed.'
                 },
                 {
                   role: 'user',
