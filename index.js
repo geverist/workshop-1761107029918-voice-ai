@@ -107,7 +107,7 @@ wss.on('connection', (ws) => {
               messages: [
                 {
                   role: 'system',
-                  content: 'The use case description \'adsf\' provided is unclear or incomplete. Please provide a detailed description of the voice AI application you are trying to build. This could include the purpose of the application, the target audience, and any specific features or capabilities you want the application to have. For example, is this a customer service bot? Does it need to schedule appointments or answer frequently asked questions? The more detail you can provide, the better we can assist you in building your application.'
+                  content: 'Given the student\'s use case, your goal is to design a conversational AI for an outbound recruiting workflow. The AI should reach out to candidates after they\'ve applied for a specific position on a job board. The AI will perform a first level screening based on the required skills and experience for the position. As the AI, you need to confirm the candidate’s identity, explain the purpose of the call, then start asking a series of questions to assess the candidate\'s skills and experience. You should be able to handle a variety of responses from the candidates, and be able to respond appropriately when a candidate doesn\'t meet the requirements for the job.'
                 },
                 {
                   role: 'user',
